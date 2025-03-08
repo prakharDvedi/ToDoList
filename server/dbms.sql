@@ -1,0 +1,9 @@
+USE DATABASE todoAPP;
+
+CREATE TABLE users (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    Email VARCHAR(255) NOT NULL,
+    title VARCHAR(255) NOT NULL,
+    progress INTEGER;
+    Description VARCHAR(255) NOT NULL,
+);
