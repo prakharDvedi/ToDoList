@@ -120,3 +120,14 @@ body {
     background-color: #cc4c4c; /* Darker red on hover */
 }
 
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(202, 211, 28, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

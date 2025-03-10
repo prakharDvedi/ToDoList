@@ -34,16 +34,6 @@ const Appt = ({ setSortedTasks }) => {
 
   return (
     <div>
-      <h2>Task List</h2>
-      {tasks ? (
-        <ul>
-          {tasks.map((task, index) => (
-            <li key={index}>{task.title}</li> // Display task titles
-          ))}
-        </ul>
-      ) : (
-        <p>Loading...</p> // Show loading if tasks are not yet fetched
-      )}
     </div>
   );
 };

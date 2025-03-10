@@ -1,6 +1,6 @@
 import React from "react";
 
-function TickIcon() {
+function tickIcon() {
   return (
     <svg 
       xmlns="http://www.w3.org/2000/svg" 
@@ -12,4 +12,4 @@ function TickIcon() {
   );
 }
 
-export default TickIcon; // Export TickIcon component
+export default tickIcon; // Export TickIcon component
